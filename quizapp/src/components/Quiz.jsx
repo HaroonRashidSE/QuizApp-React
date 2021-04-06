@@ -67,7 +67,7 @@ const Quiz = (props) => {
               <div className="question-text">
                 {questions[currentQuestion]?.title}
               </div>
-
+              <div></div>
               <div className="answer-section">
                 {questions[currentQuestion]?.options.map((answerOption) => (
                   <div className="button-and-span">
